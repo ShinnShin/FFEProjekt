@@ -1,0 +1,11 @@
+
+#ifdef USE_FIXED_DAMAGE_WEAPONS
+
+#include "FixedDamageWeapons.lyn.event"
+
+FixedDamageWeaponList:
+BYTE 0x2D
+BYTE 0
+
+
+#endif // USE_FIXED_DAMAGE_WEAPONS
