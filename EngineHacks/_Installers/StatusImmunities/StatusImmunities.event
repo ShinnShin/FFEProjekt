@@ -1,0 +1,18 @@
+
+PUSH
+
+ORG $2B628
+jumpToHack(BattleStatusImmunity)
+
+ORG $2CD38
+jumpToHack(StaffStatusImmunity)
+
+POP
+
+#include "StatusImmunities.lyn.event"
+
+ALIGN 4
+StatusImmunitiesClassList:
+BYTE Knight
+BYTE DemonKing
+BYTE 0
