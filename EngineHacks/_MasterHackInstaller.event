@@ -4,8 +4,23 @@
 //                                                     //
 /////////////////////////////////////////////////////////
 
+//#include "_Installers/_Debugger/Installer.event"
+#include "_Installers/ItemsEffects/FE8U_BattleAnimCommands/BattleAnimCommands.event"
+//(BREAKSCURRENTLY)#include "_Installers/ItemsEffects/FE8U_CustomThrownWeapon/CustomThrownWeapon.event"
+//#include "_Installers/ItemsEffects/MikeySurgeonImprovement/RestoreImprovement/Restore.event"
+//Status Expansions (SME)
+ALIGN 4
+//#include "_Installers/ItemsEffects/SmeStatuses/StatusExpansion.event"
 #include "Extensions/Hack Installation.txt"
 #include "Necessary/PopupRework/Extensions/PopupDefinitions.txt"
+#include "_Installers/MMB/Installers/MMBInstallerCatball_1.event"
+//#include "Necessary/CalcLoops/PreBattleCalcLoop/FixedDamageWeapons.event"
+//#include "_Installers/Torches/TrapRework/TrapRework.event"
+//#include "_Installers/StatusImmunities/StatusImmunities.event"
+//#include "_Installers/ItemsEffects/DancerRingRefresh/DancerRingRefresh.event"
+#include "_Installers/FEBuilderCheck/Installer.event"
+#include "_Installers/UI/Installer.event"
+
 
 // hack configuration file
 #include "Config.event"
@@ -232,4 +247,5 @@ POP
 
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
-
+	
+	
